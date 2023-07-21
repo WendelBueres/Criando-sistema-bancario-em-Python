@@ -5,7 +5,7 @@ def check_operation (operacao):
         try:
             operacao = int(operacao)
 
-            if operacao > 5 or operacao < 1: 
+            if operacao > 7 or operacao < 1: 
                 raise ValueError()
             is_valid = True
 
